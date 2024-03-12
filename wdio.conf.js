@@ -21,7 +21,6 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './features/register.feature',
         './features/login.feature' 
     ],
     // Patterns to exclude.
@@ -130,7 +129,6 @@ exports.config = {
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
         require: [
-            './features/step-definitions/register.js',
             './features/step-definitions/login.js'
         ],
         // <boolean> show full backtrace for errors
